@@ -6,7 +6,7 @@ from .views import BlogDetailView
 
 urlpatterns = [
     
-    path('/<slug:slug>/',BlogDetailView.as_view(),name='blogs_detail'),
+    path('/<slug:slug>',BlogDetailView.as_view(),name='blogs_detail'),
     path('register/',views.Register),
     path('login/',views.Login),
     path('',views.blogs),
