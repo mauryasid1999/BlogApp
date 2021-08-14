@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from django.utils.timezone import now
 from django.urls import reverse
 
+
 # Create your models here.
 
 class BlogPost(models.Model):

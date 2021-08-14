@@ -5,6 +5,7 @@ from django.conf import settings
 from .views import BlogDetailView
 from django.views.static import serve
 
+
 urlpatterns = [
     
     path('/<slug:slug>',BlogDetailView.as_view(),name='blogs_detail'),

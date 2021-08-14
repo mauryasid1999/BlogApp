@@ -8,6 +8,7 @@ from django.contrib.auth import authenticate,login,logout
 from Blog.forms import BlogPostForm
 from django.contrib.auth.decorators import login_required
 from django.views.generic import DetailView
+
  
 def search(request):
     
@@ -36,10 +37,6 @@ def blogs(request):
     }
 
     return render (request,'home.html',context)
-
-
-        
-
 
 
 
@@ -106,6 +103,11 @@ def Add_blogs(request):
     else:
         form=BlogPostForm()
     return render(request, "addblogs.html", {'form':form})
+
+def blogs_delete(request):
+    pass
+
+
 
 
 
