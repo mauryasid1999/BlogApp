@@ -25,7 +25,7 @@ SECRET_KEY = 'o@fox(eo-rh@z!elx5v%v2#j_#^o6@n22m0&ya82%0vgyu20_$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['blogappsbysid.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['blogappsbysid.herokuapp.com']
 
 
 # Application definition
