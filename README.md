@@ -5,5 +5,5 @@ Search functionality are added so that user can pick out its desired blogs out o
 Login to the application and then you able to create blogs.
 I hope you enjoy that application.
 
-Poject is live :https://blogappsbysid.herokuapp.com/
+Project is live :https://blogappsbysid.herokuapp.com/
 
